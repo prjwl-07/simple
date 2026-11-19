@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Electronics Store</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        .banner {
+            background-color: #ebf8ff;
+            border-left: 5px solid #3182ce;
+            padding: 12px;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+
+        .section-title {
+            color: #2d3748;
+            border-bottom: 2px solid #cbd5e0;
+            padding-bottom: 5px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        .highlight-badge {
+            background-color: #e2e8f0;
+            color: #4a5568;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Semantic Header -->
+    <header>
+        <!-- Inline CSS demonstrated here -->
+        <h1 style="letter-spacing: 1px;">ElectroTech Electronics Store</h1>
+        <p style="font-size: 0.9rem; opacity: 0.9;">Your One-Stop Shop for Everyday Gadgets</p>
+    </header>
+
+    <!-- Semantic Nav -->
+    <nav>
+        <a href="#products">Products</a>
+        <a href="#specifications">Comparison</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Semantic Main -->
+    <main>
+        <div class="banner">
+            <!-- Inline CSS demonstrated here -->
+            <strong style="color: #2b6cb0;">Special Offer:</strong> Flat 10% student discount on all electronics this week!
+        </div>
+
+        <!-- Section 1: Product Showcase -->
+        <section id="products">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="product-container">
+
+                <!-- Product 1 -->
+                <article class="product-card">
+                    <img src="laptop.svg" alt="Laptop">
+                    <h3>ProBook Laptop</h3>
+                    <p>High performance lightweight laptop for study and programming.</p>
+                    <p class="price">$799</p>
+                    <!-- Inline CSS demonstrated here -->
+                    <p style="color: green; font-weight: bold; margin-bottom: 8px;">In Stock</p>
+                    <h4>Specifications:</h4>
+                    <ul class="specs-list">
+                        <li>15.6" Full HD Display</li>
+                        <li>16GB RAM | 512GB SSD</li>
+                        <li>Intel Core i5 12th Gen</li>
+                    </ul>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card">
+                    <img src="smartphone.svg" alt="Smartphone">
+                    <h3>SmartPhone X</h3>
+                    <p>Sleek design with long-lasting battery and ultra clear camera.</p>
+                    <p class="price">$499</p>
+                    <!-- Inline CSS demonstrated here -->
+                    <p style="color: green; font-weight: bold; margin-bottom: 8px;">In Stock</p>
+                    <h4>Specifications:</h4>
+                    <ul class="specs-list">
+                        <li>6.5" AMOLED Display</li>
+                        <li>8GB RAM | 128GB Storage</li>
+                        <li>5000mAh Battery</li>
+                    </ul>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card">
+                    <img src="headphones.svg" alt="Headphones">
+                    <h3>Wireless Headphones</h3>
+                    <p>Crystal clear audio with active noise cancellation technology.</p>
+                    <p class="price">$99</p>
+                    <!-- Inline CSS demonstrated here -->
+                    <p style="color: green; font-weight: bold; margin-bottom: 8px;">In Stock</p>
+                    <h4>Specifications:</h4>
+                    <ul class="specs-list">
+                        <li>Bluetooth 5.3</li>
+                        <li>Active Noise Cancellation</li>
+                        <li>40 Hours Playback Time</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Section 2: Specifications Table -->
+        <section id="specifications">
+            <h2 class="section-title">Product Specifications Comparison</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Category</th>
+                        <th>Key Specs</th>
+                        <th>Warranty</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ProBook Laptop</td>
+                        <td>Computers</td>
+                        <td>i5, 16GB RAM, 512GB SSD</td>
+                        <td>2 Years</td>
+                        <td>$799</td>
+                    </tr>
+                    <tr>
+                        <td>SmartPhone X</td>
+                        <td>Mobiles</td>
+                        <td>6.5" AMOLED, 8GB RAM, 5000mAh</td>
+                        <td>1 Year</td>
+                        <td>$499</td>
+                    </tr>
+                    <tr>
+                        <td>Wireless Headphones</td>
+                        <td>Accessories</td>
+                        <td>Bluetooth 5.3, ANC, 40h Battery</td>
+                        <td>1 Year</td>
+                        <td>$99</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Semantic Footer -->
+    <footer id="contact">
+        <p>&copy; 2026 ElectroTech Store. All Rights Reserved.</p>
+        <p style="font-size: 0.85rem; margin-top: 5px;">Contact: info@electrotech.com | Phone: +1-800-555-0199</p>
+    </footer>
+
+</body>
+</html>
